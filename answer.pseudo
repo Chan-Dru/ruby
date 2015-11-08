@@ -1,0 +1,6 @@
+#generator function takes name as argument and return "Name Number".
+def generator(name)
+num = Random.rand(6..15)
+var = "#{name.capitalize} #{num}"
+return var
+end
